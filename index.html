@@ -6,10 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bapp er Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-
+    <header>
+        <h1 class="text-5xl	font-medium	text-slate-500	text-center mt-5">It's my Bapp er <Span
+                class="font-bold text-slate-800">Bank</Span>
+        </h1>
+    </header>
+    <main>
+        <section class="bg-slate-400 w-4/6	mx-auto mt-5 p-5 rounded-xl">
+            <h3 class="text-3xl font-medium pb-4 text-white">Please Login</h3>
+            <div>
+                <input class="block mb-3 pl-1 rounded" placeholder="enter your emial" size="60" type="email" name=""
+                    id="email-input">
+                <input class="block mb-3 pl-1 rounded" placeholder="enter your password" size="60" type="password"
+                    name="" id="password-input">
+                <button class=" bg-gray-300	 px-5 py-1 rounded-xl rounded-xl" id="submit-btn">Submit</button>
+            </div>
+        </section>
+    </main>
+    <!-- js file -->
+    <script src="js/login.js"></script>
 </body>
 
 </html>
