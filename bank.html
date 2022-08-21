@@ -20,7 +20,7 @@
             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto mt-9">
                 <div class="bg-red-400 text-white p-7 rounded-xl">
                     <h4 class="text-2xl font-medium	">Diposit</h4>
-                    <h1 class="text-4xl font-xl	">$00</h1>
+                    <h1 class="text-4xl font-xl	">$<span id="diposit-dolor">00</span> </h1>
                 </div>
                 <div class="bg-blue-400 text-white p-7 rounded-xl">
                     <h4 class="text-2xl font-medium	">Withdraw</h4>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="bg-pink-400 text-white p-7 rounded-xl">
                     <h4 class="text-2xl font-medium	">Balance</h4>
-                    <h1 class="text-4xl font-xl	">$7000</h1>
+                    <h1 class="text-4xl font-xl	">$<span id="balance-dolor">7000</span></h1>
                 </div>
             </div>
         </section>
@@ -38,9 +38,9 @@
                     <h4 class="text-2xl font-medium	pb-4  text-white">Please Diposit</h4>
                     <div class="pl-9">
                         <input class="block mb-3 pl-1 rounded" placeholder="$ Amount you want to Diposit" size="30"
-                            type="text" name="" id="">
+                            type="text" name="" id="diposit-input">
                         <button class=" bg-gray-300 hover:bg-gray-600 px-5 py-1 rounded-xl rounded-xl  text-white"
-                            id="">Diposit</button>
+                            id="diposit-btn">Diposit</button>
                     </div>
                 </div>
                 <div class="bg-green-400 p-7 rounded-xl">
@@ -55,6 +55,7 @@
             </div>
         </section>
     </main>
+    <script src="js/diposit.js"></script>
 </body>
 
 </html>
